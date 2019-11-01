@@ -6,5 +6,50 @@
 
 body{
     font-family: Calibri , Helvetica Neue , Roboto , Arial , sans-serif;
-    
+    text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #cccccc;
+	background-color: #151515;
+	position: relative;
+}
+
+#wrapper{
+    width: 100%;
+    min-width: 740px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	top: 0px;
+	bottom: 0px;
+	height: auto;
+	overflow-y: auto;
+}
+
+#maintenance{
+    text-align: center;
+    padding-top: 25px;
+    background-color: #e6b82e;
+    color: #111111;
+    height: 50px;
+
+}
+#header{
+	text-align: Left;
+	font-size: 25px;
+	background-color: #1A1A1A;
+
+}
+#header h1{
+    padding-top: 15px;
+    padding-left: 10px;
+
+
 }
