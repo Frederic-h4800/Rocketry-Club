@@ -44,25 +44,34 @@ body{
 }
 
 /* Header */
+#webpageHead{
+	width: 100%;
+
+}
+#webpageHead div{
+	float: left;
+}
 #header{
 	text-align: Left;
 	font-size: 24px;
 	background-color: #1A1A1A;
 	height: 90px;
+	width: 50%;
 
 }
 #header h1{
 	padding-top: 15px;
 	padding-bottom: 15px;
-    padding-left: 15px;
+    padding-left: 25px;
 
 
 }
 
 /* Navigation Bar */
 #navigation{
-	background-color: rgb(209, 210, 219);
-	height: 50px;
+	background-color: #1A1A1A;
+	height: 90px;
+	width: 50%;
 
 }
 #navigation ul{
@@ -74,18 +83,41 @@ body{
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
-	padding-left: 0px;
+	padding-left: 10px;
 }
 #navigation a{
-	width: 25%;
+	width: 185px;
+	height: 25px;
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	font-size: 24px;
+	padding-top: 30px;
+	padding-bottom: 0px;
 	display: block;
-	color: #1A1A1A;
-	background-color: rgb(209, 210, 219);
+	color: #C1C1C1;
+	background-color: #1A1A1A;
 
 }
+#box1{
+	width: 50%;
+	padding-top: 30px;
+	padding-left: 25px;
+	background-color: rgb(28, 28, 31);
 
+}
+#objective{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+}
+#boxTitle{
+	padding-bottom: 10px;
+}
+#boxTitle h3{
+	font-size: 24px;
+}
+#boxText{
+	font-size:18px;
+}
