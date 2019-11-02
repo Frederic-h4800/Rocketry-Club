@@ -22,7 +22,8 @@ body{
 
 #wrapper{
     width: 100%;
-    min-width: 740px;
+	min-width: 740px;
+	max-width: 2000px;
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
@@ -41,15 +42,50 @@ body{
     height: 50px;
 
 }
+
+/* Header */
 #header{
 	text-align: Left;
-	font-size: 25px;
+	font-size: 24px;
 	background-color: #1A1A1A;
+	height: 90px;
 
 }
 #header h1{
-    padding-top: 15px;
-    padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    padding-left: 15px;
 
 
 }
+
+/* Navigation Bar */
+#navigation{
+	background-color: rgb(209, 210, 219);
+	height: 50px;
+
+}
+#navigation ul{
+	list-style-type: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#navigation a{
+	width: 25%;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+	color: #1A1A1A;
+	background-color: rgb(209, 210, 219);
+
+}
+
