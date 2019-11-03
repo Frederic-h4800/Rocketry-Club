@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -41,54 +42,49 @@ body {
 	width: 100%;
 	min-height: 125px;
 	height: auto;
-}
-
-#webpageHead div {
-	float: left;
+	line-height: 90px;
 }
 
 #header {
 	text-align: Left;
 	font-size: 20px;
 	background-color: #1A1A1A;
-	min-height: 90px;
 	height: auto;
 	width: 40%;
 }
 
 #header h1 {
-	padding-top: 22px;
-	padding-bottom: 22px;
 	padding-left: 25px;
 }
 
 /* Navigation Bar */
-#navigation{
+#navigation {
 	background-color: #1A1A1A;
-	min-height: 90px;
 	height: auto;
 	width: 60%;
-
+	float: right;
 }
+
 #navigation ul {
+	display: inline-block;
 	list-style-type: none;
 	margin: 0;
-	padding: 0 0 0 15px;
+}
+
+#navigation li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 0 15px;
 }
 
 #navigation a {
 	width: 165px;
-	float: left;
 	text-align: center;
 	text-decoration: none;
 	font-size: 24px;
-	padding-top: 30px;
-	padding-bottom: 13px;
-	display: block;
 	color: #C1C1C1;
 	background-color: #1A1A1A;
 }
-
 
 #box1 {
 	width: 50%;
