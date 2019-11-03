@@ -54,7 +54,7 @@ body {
 }
 
 #header h1 {
-	padding-left: 25px;
+	padding-left: 35px;
 }
 
 /* Navigation Bar */
@@ -88,17 +88,12 @@ body {
 
 #box1 {
 	width: 50%;
-	padding-top: 30px;
-	padding-left: 25px;
+	padding: 30px 35px;
 	background-color: rgb(28, 28, 31);
 	position: relative;
 }
 
 #objective {
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-bottom: 25px;
-	padding-right: 25px;
 }
 
 #boxTitle {
@@ -133,4 +128,28 @@ body {
 	padding-left: 25px;
 	background-color: #222;
 	color: #ABABAB;
+}
+
+@media only screen and (max-width: 1165px) {
+	#navigation {
+		float: none;
+		width: 100%;
+		line-height: 50px;
+		border-bottom: 1px solid #555;
+	}
+
+	#navigation a {
+		width: 85px;
+		font-size: 15px;
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+
+	#header {
+		text-align: Left;
+		font-size: 15px;
+		background-color: #1A1A1A;
+		height: auto;
+		width: 100%;
+	}
 }
