@@ -1,26 +1,20 @@
 @charset "utf-8";
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: Calibri , Helvetica, Roboto , Arial , sans-serif;
-    text-align: left;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+body {
+    font-family: Calibri, Helvetica, Roboto , Arial , sans-serif;
+	text-align: left;
+	margin: 0;
+	padding: 0;
 	color: #cccccc;
 	background-color: #151515;
 	position: relative;
 }
 
-#wrapper{
+#wrapper {
     width: 100%;
 	min-width: 740px;
 	max-width: 2000px;
@@ -34,36 +28,35 @@ body{
 	overflow-y: auto;
 }
 
-#maintenance{
+#maintenance {
     text-align: center;
     padding-top: 25px;
     background-color: #e6b82e;
     color: #111111;
     height: 50px;
-
 }
 
 /* Header */
-#webpageHead{
+#webpageHead {
 	width: 100%;
 	min-height: 125px;
 	height: auto;
-	
-
 }
-#webpageHead div{
+
+#webpageHead div {
 	float: left;
 }
-#header{
+
+#header {
 	text-align: Left;
 	font-size: 20px;
 	background-color: #1A1A1A;
 	min-height: 90px;
 	height: auto;
 	width: 40%;
-
 }
-#header h1{
+
+#header h1 {
 	padding-top: 22px;
 	padding-bottom: 22px;
 	padding-left: 25px;
@@ -77,18 +70,13 @@ body{
 	width: 60%;
 
 }
-#navigation ul{
+#navigation ul {
 	list-style-type: none;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 15px;
+	margin: 0;
+	padding: 0 0 0 15px;
 }
-#navigation a{
+
+#navigation a {
 	width: 165px;
 	float: left;
 	text-align: center;
@@ -99,34 +87,37 @@ body{
 	display: block;
 	color: #C1C1C1;
 	background-color: #1A1A1A;
-
 }
 
 
-#box1{
+#box1 {
 	width: 50%;
 	padding-top: 30px;
 	padding-left: 25px;
 	background-color: rgb(28, 28, 31);
 	position: relative;
-
 }
-#objective{
+
+#objective {
 	padding-top: 5px;
 	padding-left: 10px;
 	padding-bottom: 25px;
 	padding-right: 25px;
 }
-#boxTitle{
+
+#boxTitle {
 	padding-bottom: 10px;
 }
-#boxTitle h3{
+
+#boxTitle h3 {
 	font-size: 24px;
 }
-#boxText{
-	font-size:18px;
+
+#boxText {
+	font-size: 18px;
 }
-#box2{
+
+#box2 {
 	width: 500px;
 	padding-top: 30px;
 	padding-left: 35px;
@@ -135,7 +126,7 @@ body{
 }
 
 /* Footer */
-#footer{
+#footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
