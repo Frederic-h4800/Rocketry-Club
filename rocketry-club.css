@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Calibri , Helvetica Neue , Roboto , Arial , sans-serif;
+    font-family: Calibri , Helvetica, Roboto , Arial , sans-serif;
     text-align: left;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -46,7 +46,9 @@ body{
 /* Header */
 #webpageHead{
 	width: 100%;
-	height: 100px;
+	min-height: 15px;
+	height: auto;
+	
 
 }
 #webpageHead div{
@@ -54,24 +56,24 @@ body{
 }
 #header{
 	text-align: Left;
-	font-size: 24px;
+	font-size: 20px;
 	background-color: #1A1A1A;
-	height: 90px;
+	min-height: 90px;
+	height: auto;
 	width: 50%;
 
 }
 #header h1{
-	padding-top: 15px;
-	padding-bottom: 15px;
-    padding-left: 25px;
-
-
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 25px;
 }
 
 /* Navigation Bar */
 #navigation{
 	background-color: #1A1A1A;
-	height: 90px;
+	min-height: 90px;
+	height: auto;
 	width: 50%;
 
 }
@@ -87,8 +89,7 @@ body{
 	padding-left: 10px;
 }
 #navigation a{
-	width: 185px;
-	height: 25px;
+	width: 165px;
 	float: left;
 	text-align: center;
 	text-decoration: none;
@@ -100,6 +101,8 @@ body{
 	background-color: #1A1A1A;
 
 }
+
+
 #box1{
 	width: 50%;
 	padding-top: 30px;
