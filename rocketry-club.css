@@ -87,14 +87,17 @@ body {
 }
 
 #article{
+	text-align: center;
 	padding-top: 10px;
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-bottom: 10px;
+	
 }
 
 #box1 {
-	width: 400px;
+	display: inline-block;
+	width: 30%;
 	padding: 30px 35px;
 	background-color: rgb(28, 28, 31);
 	
@@ -118,17 +121,21 @@ body {
 }
 
 #box2 {
-	width: 420px;
+	display: inline-block;
+	width: 30%;
 	padding-top: 30px;
 	padding-left: 50px;
 	padding-bottom: 30px;
 	background-color: rgb(28, 28, 31);
+	
 }
 
 #box3{
-	width: 400px;
+	display: inline-block;
+	width: 30%;
 	background-color: rgb(28, 28, 31);
 	padding: 30px 35px;
+	
 }
 
 /* Footer */
