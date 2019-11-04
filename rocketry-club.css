@@ -86,14 +86,22 @@ body {
 	background-color: #1A1A1A;
 }
 
+#article{
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+
 #box1 {
-	width: 50%;
+	width: 400px;
 	padding: 30px 35px;
 	background-color: rgb(28, 28, 31);
-	position: relative;
+	
 }
 
 #objective {
+	text-align: center;
 }
 
 #boxTitle {
@@ -105,22 +113,27 @@ body {
 }
 
 #boxText {
+	text-align: left;
 	font-size: 18px;
 }
 
 #box2 {
-	width: 500px;
+	width: 420px;
 	padding-top: 30px;
-	padding-left: 35px;
+	padding-left: 50px;
 	padding-bottom: 30px;
 	background-color: rgb(28, 28, 31);
 }
 
+#box3{
+	width: 400px;
+	background-color: rgb(28, 28, 31);
+	padding: 30px 35px;
+}
+
 /* Footer */
 #footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
+	width: auto;
 	min-height: 100px;
 	height: auto;
 	margin: 0;
