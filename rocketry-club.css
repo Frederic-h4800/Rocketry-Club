@@ -55,6 +55,8 @@ body {
 
 #header h1 {
 	padding-left: 35px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 /* Navigation Bar */
@@ -120,6 +122,43 @@ body {
 	background-color: rgb(28, 28, 31);
 	box-sizing: border-box;
 	vertical-align: top;
+}
+#article2{
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	text-align: center;
+}
+#rocketIntro{
+	text-align: center;
+	width: 500px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+#articleTitle{
+	text-align: center;
+}
+#articleTitle h3{
+	font-size: 24px;
+}
+#introDescription{
+	text-align: left;
+}
+#introDescription p{
+	font-size: 18px;
+}
+
+/* Resource CSS */
+#articleLeft{
+	width: 40%;
+	background-color: rgb(28, 28, 31);
+	min-height: 750px;
+	height: auto;
+	padding-top: 25px;
+	padding-left: 25px;
 }
 
 /* Footer */
