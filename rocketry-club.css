@@ -16,17 +16,9 @@ body {
 }
 
 #wrapper {
-    width: 100%;
-	min-width: 740px;
 	max-width: 2000px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	top: 0px;
-	bottom: 0px;
-	height: auto;
-	overflow-y: auto;
+	min-width: 475px;
+	margin: 0 auto;
 }
 
 #maintenance {
@@ -89,9 +81,16 @@ body {
 }
 
 /* Content */
-#embeded{
+#embeded {
+	position: relative;
 	margin-left: 15%;
 	margin-right: 15%;
+}
+
+#embeded iframe {
+	max-width: 100%;
+	height: 700px;
+	width: 100%;
 }
 
 #article{
@@ -244,4 +243,30 @@ body {
 		height: auto;
 		width: 100%;
 	}
+	
+	#embeded iframe {
+		height: 500px;
+	}
+	
+	.box {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#rocketInfo {
+		padding: 0;
+		margin: 10px 20px;
+	}
+}
+
+@media only screen and (max-width: 786px) {
+	#embeded {
+		margin: 0 20px;
+	}
+
+	#embeded iframe {
+		max-width: 100%;
+		height: 350px;
+	}
+
 }
