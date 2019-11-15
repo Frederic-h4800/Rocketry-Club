@@ -166,7 +166,7 @@ body {
 }
 #rocketInfo{
 	padding-top: 30px;
-	padding-left: 400px;
+	padding-left: 275px;
 	text-align: left;
 	border-bottom: 1px solid #33AA33;
 }
@@ -196,6 +196,7 @@ body {
 	text-align: right;
 	width: 50%;
 	padding-left: 200px;
+	padding-bottom: 100px;
 	display: inline-block;
 }
 
@@ -220,6 +221,15 @@ body {
 	padding-left: 25px;
 	background-color: #222;
 	color: #ABABAB;
+}
+
+@media only screen and (max-width: 1366px){
+	#rocketInfo{
+		padding-left: 175px;
+	}
+	.rocketPic{
+		text-align: center;
+	}
 }
 
 @media only screen and (max-width: 1165px) {
