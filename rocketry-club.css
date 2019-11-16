@@ -265,12 +265,31 @@ body {
 	}
 
 	#rocketInfo {
+		width: 100%;
 		padding: 0;
-		margin: 10px 20px;
+		text-align: center;
+		
 	}
+	#rocketInfo p{
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.rocketTitle p{
+		text-align: center;
+	}
+	#loadstar2{
+		width: 100%;
+		text-align: center;
+	}
+	.specs ul{
+		text-align: center;
+	}
+
 
 	.rocketPic {
 		width: 100%;
+		padding: 0;
 		text-align: center;
 	}
 
