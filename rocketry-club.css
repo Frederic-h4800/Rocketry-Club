@@ -223,6 +223,10 @@ body {
 	color: #ABABAB;
 }
 
+#footerLinks a{
+	color: #C1C1C1;
+}
+
 @media only screen and (max-width: 1366px){
 	#rocketInfo{
 		padding-left: 175px;
@@ -293,8 +297,8 @@ body {
 		text-align: center;
 	}
 
-	}
 }
+
 
 @media only screen and (max-width: 786px) {
 	#embeded {
