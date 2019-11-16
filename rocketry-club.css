@@ -202,6 +202,11 @@ body {
 
 
 /* Resource CSS */
+
+#resources{
+	width: 100%;
+	text-align: left;
+}
 #articleLeft{
 	width: 40%;
 	background-color: rgb(28, 28, 31);
@@ -209,7 +214,22 @@ body {
 	height: auto;
 	padding-top: 25px;
 	padding-left: 25px;
+	display: inline-block;
 }
+#resourceContent ul{
+	list-style-type: none;
+}
+#resourceContent a{
+	color: #C1C1C1;
+}
+
+#articleRight{
+	width: 50%;
+	text-align: center;
+	padding-left: 25px;
+	display: inline-block;
+}
+
 
 /* Footer */
 #footer {
