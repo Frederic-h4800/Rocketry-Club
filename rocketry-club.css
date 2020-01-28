@@ -239,12 +239,22 @@ body {
 	margin: 0;
 	padding-top: 25px;
 	padding-left: 25px;
+	padding-bottom: 20px;
 	background-color: #222;
 	color: #ABABAB;
 }
 
 #footerLinks a{
 	color: #C1C1C1;
+}
+
+#footerNav a{
+	color: #666;
+	text-decoration: none;
+}
+
+#footerNav ul{
+	list-style-type: none;
 }
 
 @media only screen and (max-width: 1366px){
