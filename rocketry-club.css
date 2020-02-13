@@ -173,9 +173,9 @@ body {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
@@ -303,12 +303,19 @@ body {
 	text-align: left;
 }
 #articleLeft{
-	width: 40%;
+	width: 30%;
 	background-color: rgb(28, 28, 31);
 	min-height: 750px;
 	height: auto;
 	padding-top: 25px;
 	padding-left: 25px;
+	display: inline-block;
+	border-right: #33AA33, 1px;
+}
+#articleRight{
+	width: 65%;
+	text-align: right;
+	padding-left: 20px;
 	display: inline-block;
 }
 #resourceContent ul{
@@ -318,12 +325,7 @@ body {
 	color: #C1C1C1;
 }
 
-#articleRight{
-	width: 50%;
-	text-align: center;
-	padding-left: 25px;
-	display: inline-block;
-}
+
 
 
 /* Footer */
