@@ -333,6 +333,16 @@ body {
 	border-top: 1px solid#33AA33;
 }
 
+/* Media */
+#BPS{
+	padding-left: 40px;
+}
+.YoutubeEmbed{
+	padding-left: 30px;
+	padding-top: 25px;
+	display: inline-block;
+
+}
 
 /* Footer */
 #footer {
