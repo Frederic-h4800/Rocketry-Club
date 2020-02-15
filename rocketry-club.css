@@ -298,22 +298,20 @@ body {
 
 /* Resource CSS */
 
-#resources{
-	width: 100%;
-	text-align: left;
+#resources {
+	margin-bottom: 40px;
 }
+
 #articleLeft{
 	width: 30%;
 	background-color: rgb(28, 28, 31);
-	min-height: 750px;
 	height: auto;
-	padding-top: 25px;
-	padding-left: 25px;
+	padding: 25px;
 	display: inline-block;
+	vertical-align: top;
 }
 #articleRight{
 	width: 65%;
-	text-align: right;
 	padding-left: 20px;
 	display: inline-block;
 }
