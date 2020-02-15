@@ -322,6 +322,10 @@ body {
 	color: #C1C1C1;
 }
 
+.lessonEmbed iframe{
+	border-color: #33AA33;
+}
+
 /* Updates */
 .updatePosts{
 	padding-left:30px;
